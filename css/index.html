@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Test document</title>
+    <style>
+        *, ::before, ::after{
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        main{
+            display: flex;
+            gap: 1em;
+            counter-reset: sectionNumber;
+        }
+        main .card{
+            width:300px;
+            color:darkcyan;
+            background-color: blanchedalmond;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow:10px 5px 5px rgb(9, 3, 44);
+            position: relative;
+            
+        }
+        main .card::before{
+            counter-increment: sectionNumber;
+            content: counter(sectionNumber);
+            width: 4rem;
+            height: 4rem;
+            background-color: forestgreen;
+            border-radius: 50%;
+            display: block;
+            position: absolute; 
+            color:ghostwhite;
+            font-size:1.5rem;
+            padding: 0.8rem 1.5rem;
+            top:-2rem;
+            left:calc(50% - 2rem);
+            /* top:-1rem;
+            left:7.4rem */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div></div>
+        <nav>
+            <ul>
+                <li>Season</li>
+                <li>Ticket</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <h1 class="card-title">Header 1</h1>
+            <p>Some content for header 1</p>
+        </div>
+        <div class="card">
+            <h1 class="card-title">Header 2</h1>
+            <p>some content for header 2</p>
+        </div>
+        <div class="card">
+            <h1 class="card-title">Header 3</h1>
+            <p>some content for header 3</p>
+        </div>
+        <div class="card">
+            <h1 class="card-title">Header 3</h1>
+            <p>some content for header 3</p>
+        </div>
+    </main>
+</body>
+</html>
