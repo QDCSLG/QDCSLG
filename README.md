@@ -6,8 +6,8 @@ You can click the Preview link to take a look at your changes.
 
 - Microsoft Ergonomic Keyboard 4000
   - How to change the zoom key to scroll up or down
-  - [MS Mouse and Keyboard center (https://support.microsoft.com/en-us/topic/mouse-and-keyboard-center-download-f5b10905-7887-eedb-2f1c-d0737a36a3b2)]
-  - Follow instruction [here(https://superuser.com/questions/195474/change-zoom-action-to-scroll-in-a-ms-natural-keyboard-4000)]
+  - [MS Mouse and Keyboard center](https://support.microsoft.com/en-us/topic/mouse-and-keyboard-center-download-f5b10905-7887-eedb-2f1c-d0737a36a3b2)
+  - Follow instruction [here](https://superuser.com/questions/195474/change-zoom-action-to-scroll-in-a-ms-natural-keyboard-4000)
   
   Add the following section to the bottom of the commands.xml 
   
@@ -24,7 +24,7 @@ You can click the Preview link to take a look at your changes.
 - Table
 - Grid
 
-[Box-sizing css property description(https://github.com/QDCSLG/QDCSLG/blob/6b3aa2d17cc3bbc589c94274e3c9891cae3a32c1/box-sizing.md)]
+[Box-sizing css property description](https://github.com/QDCSLG/QDCSLG/blob/6b3aa2d17cc3bbc589c94274e3c9891cae3a32c1/box-sizing.md)
 
 # HTML
 # JavaScript
