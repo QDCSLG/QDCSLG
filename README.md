@@ -11,7 +11,7 @@ You can click the Preview link to take a look at your changes.
   
   Add the following section to the bottom of the commands.xml 
   
-  ```
+  ```xml
   <Application UniqueName="MozillaWindowClass" AppName="Netscape">
     <C319 Type="6" Activator="ScrollUp" />
     <C320 Type="6" Activator="ScrollDown" />            
