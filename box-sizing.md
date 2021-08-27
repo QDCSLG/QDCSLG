@@ -63,7 +63,7 @@ div {
 ***Result***
 ![image](https://user-images.githubusercontent.com/12564206/131061567-8d55c183-7904-440a-a917-0bc168ba2f5a.png)
 
-In [bootstrap source code (https://github.com/twbs/bootstrap/blob/main/scss/_reboot.scss)], one of the first line of code is to set everthing to border-box
+In [bootstrap source code ](https://github.com/twbs/bootstrap/blob/main/scss/_reboot.scss), one of the first line of code is to set everthing to border-box
 Same thing as tailwindcss
 ```
 // Document
