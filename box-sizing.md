@@ -28,13 +28,13 @@ By default in the css box model, the `width` and `height` you assign to an eleme
 
 ### Example
  **HTML**
- ```
+ ```html
  <div class="content-box">Content box</div>
 <br>
 <div class="border-box">Border box</div>
  ```
  ***CSS***
-```
+```css
 div {
   width: 160px;
   height: 80px;
