@@ -15,9 +15,8 @@ You can click the Preview link to take a look at your changes.
   <Application UniqueName="MozillaWindowClass" AppName="Netscape">
     <C319 Type="6" Activator="ScrollUp" />
     <C320 Type="6" Activator="ScrollDown" />            
-</Application>
-  
-  ```
+  </Application>
+   ```
 
 #CSS 
 - Flexbox
